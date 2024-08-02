@@ -1,24 +1,71 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+// import './App.css';
+// import Navbar from './components/Navbar/Navbar';
+// import Hero from './components/hero/Hero';
+// import Skills from './components/skills/Skills';
+// import WorkExperience from './components/Experience/Experience';
+// import Activities from './components/Activities/Activities';
+// import Projects from './components/Projects/Projects';
+// import ContactMe from './components/ContactMe/ContactMe';
+// import Footer from './components/Footer/Footer';
+
+
+// function App() {
+//   return (
+//     <>
+//       <Navbar/>
+//       <div className='container'>
+//         <Hero/>
+//         <Skills/>
+//         <WorkExperience/>
+//         <Activities/>
+//         <Projects/>
+//         <ContactMe/>
+//       </div>
+//       <Footer/>
+//     </>
+//   );
+// }
+
+// export default App;
+
+import React from 'react';
 import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import Hero from './components/hero/Hero';
+import Skills from './components/skills/Skills';
+import WorkExperience from './components/Experience/Experience';
+import Activities from './components/Activities/Activities';
+import Projects from './components/Projects/Projects';
+import ContactMe from './components/ContactMe/ContactMe';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar/>
+      <div className='container'>
+        <section id="hero">
+          <Hero/>
+        </section>
+        <section id="skills">
+          <Skills/>
+        </section>
+        <section id="workExperience">
+          <WorkExperience/>
+        </section>
+        <section id="activities">
+          <Activities/>
+        </section>
+        <section id="projects">
+          <Projects/>
+        </section>
+        <section id="contactMe">
+          <ContactMe/>
+        </section>
+      </div>
+      <Footer/>
+    </>
   );
 }
 

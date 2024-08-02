@@ -1,0 +1,41 @@
+.activitie-card{
+    border-radius: 0.65rem;
+    border: 1.5px solid #6751b9;
+    padding: 2.5rem;
+    text-align: center;
+    background:rgba(22, 17, 47, 0.398);
+    backdrop-filter: blur(1rem);
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+.activitie-card:hover,
+.activitie-card.active{
+    background: linear-gradient(100deg, #aa94fe 0%, #7c5fe6 100%);
+}
+
+.Frontend, .Backend, .Tool, .SoftSkill{
+    width: 7rem;
+}
+
+.activitie-card span {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+
+@media (max-width: 1025px) {
+    .activitie-card {
+    padding: 2rem;
+}
+    .activitie-card span {
+    font-size: 1rem;
+}
+}
+
+@media (max-width: 768px){
+    .activitie-card span{
+        font-size: 0.9rem;
+    }
+}

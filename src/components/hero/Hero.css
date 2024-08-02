@@ -1,0 +1,432 @@
+/* .profile{
+    height: 65vh;
+    width: 20vw;
+    border: 2px solid #a993fe;
+    padding: 10px;
+    border-radius: 18%;
+}
+.html{
+    height: 13vh;
+    width: 5.4vw;
+}
+.css{
+    height: 13vh;
+    width: 5.4vw;
+}
+.js{
+    height: 13vh;
+    width: 5.4vw;
+}
+.react{
+    height: 13vh;
+    width: 5.4vw;
+}
+.python{
+    height: 13vh;
+    width: 5.4vw;
+}
+.sql{
+    height: 13vh;
+    width: 5.4vw;
+    margin-right: -30px;
+}
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.hero-content{
+    flex: 1;
+}
+
+.hero-content h2{
+    font-size: 3.8rem;
+    font-weight: 600;
+    line-height: 5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p{
+    width: 80%;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.hero-img{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+    margin-top: 5rem;
+}
+
+.hero-img>div{
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
+}
+
+.hero-img > div > img{
+    width: 25rem;
+    transition: all 0.3s ease;
+} 
+.tech-icon{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.65rem;
+    /* border: 1.5px solid #6852ba; 
+} */
+
+.hero-container{
+    display: flex;
+    margin-top: 2rem;
+    position: relative;
+}
+.profile {
+    height: 65vh;
+    width: 20vw;
+    border: 2px solid #a993fe;
+    padding: 10px;
+    border-radius: 18%;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.html {
+    height: 13vh;
+    width: 5.4vw;
+    visibility: hidden;
+    animation: slideIn 1s ease-out forwards;
+    animation-delay: 0.5s;
+}
+
+.css {
+    height: 13vh;
+    width: 5.4vw;
+    margin-left: 0.9rem;
+    margin-right: 0.7rem;
+    visibility: hidden;
+    animation: slideIn 1s ease-out forwards;
+    animation-delay: 1.5s; 
+}
+
+.js {
+    height: 13vh;
+    width: 5.4vw;
+    visibility: hidden;
+    margin-right: 0.7rem;
+    animation: slideIn 1s ease-out forwards;
+    animation-delay: 2.5s; 
+}
+
+.react {
+    height: 13vh;
+    width: 5.4vw;
+    margin-right: 0.7rem;
+    visibility: hidden;
+    animation: slideIn 1s ease-out forwards;
+    animation-delay: 3.5s; 
+}
+
+.python {
+    height: 13vh;
+    width: 5.4vw;
+    margin-right: 0.7rem;
+    visibility: hidden;
+    animation: slideIn 1s ease-out forwards;
+    animation-delay: 4.5s; 
+}
+
+.sql {
+    height: 13vh;
+    width: 5.4vw;
+    margin-right: -10px;
+    margin-right: 0.7rem;
+    visibility: hidden;
+    animation: slideIn 1s ease-out forwards;
+    animation-delay: 5.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        visibility: hidden;
+    }
+    to {
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+
+@keyframes cursorBlink {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: black;
+    }
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.hero-container::after,
+.hero-container::before{
+content:"";
+width: 28.125rem;
+height: 28.125rem;
+border-radius: 28.125rem;
+background: #7c66e3;
+position: absolute;
+z-index: -1;
+filter: blur(225px);
+}
+.hero-container::after {
+top: -3rem;
+left: -5rem;
+}
+.hero-container::before {
+bottom: 2rem;
+right: 0rem;
+}
+.hero-content {
+    flex: 1;
+}
+
+.hero-content h2 {
+    font-size: 3.8rem;
+    font-weight: 600;
+    line-height: 5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    width: 80%;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.hero-img {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.hero-img > div {
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
+}
+
+.hero-img > div > img {
+    width: 25rem;
+    transition: all 0.3s ease;
+}
+
+.welcome{
+    font-size: 6rem;
+    font-weight: 600;
+    display: flex;
+    align-items: start;
+    color: #fff;
+    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+    padding: 0.6rem 2rem;
+    padding-left: 5rem;
+    margin-bottom: 10px;
+    border-radius: 0.2rem;
+    /* cursor: pointer; */
+}
+
+
+.hero-content .changing-text{
+    font-size: 2rem;
+}
+
+.download-cv-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #a993fe;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.download-cv-btn:hover {
+    color: #a993fe;
+    background: black;
+    outline: 1.5px solid #a993fe;
+}
+
+.tech-icon img{
+    width: 4rem;
+    height: auto;
+    transition: all 0.3 ease;
+}
+
+.hero-img > div > img:hover,
+.tech-icon img:hover{
+    transform:translateY(-0.5rem)
+}
+
+@media (max-width:1025px){
+    .hero-content{
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .hero-content p{
+        font-size: 0.9rem;
+        line-height: 1.6rem;
+    }
+    .hero-img > div > img{
+        width: 21rem;
+        height: 28rem;
+    }
+    .tech-icon{
+        width: 4rem;
+        height: 4rem;
+    }
+    .tech-icon img{
+        width: 4rem;
+    }
+    .hero-content .changing-text{
+        font-size: 1.5rem;
+    }
+    .hero-content .welcome{
+        font-size: 1.1rem;
+        font-weight: 400;
+        padding-left: 1.2rem;
+    }
+    .download-cv-btn{
+        padding: 3px 15px;
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 768px){
+    .hero-container{
+        flex-direction: column;
+    }
+
+    .hero-img{
+        margin: 2rem 0 2rem 0;
+    }
+    .hero-container h2{
+        margin-top: 3rem;
+    }
+    .hero-content h2, .hero-content p{
+        width: auto;
+        text-align: center;
+    }
+    .hero-container::after,.hero-container::before{
+        content: " ";
+        width: 18rem;
+        height: 18rem;
+    }
+    .hero-container::after{
+        top: 0rem;
+        left: 0rem;
+    }
+    .hero-container::before{
+        bottom: 2rem;
+        right: 0rem;
+    }
+    .hero-content .welcome{
+        width: 50vw;
+        font-size: 1.1rem;
+        font-weight: 400;
+        padding-left: 3rem;
+        margin-left: 22vw;
+        margin-top: 2rem;
+        margin-bottom: -2rem;
+    }
+    .download-cv-btn{
+        height: 4rem; 
+        margin-top: 2rem;
+        margin-left: 36vw;
+    }
+    .hero-img > div > img{
+        width: 22rem;
+        height: 25rem;
+    }
+    .tech-icon img{
+        width: 3.8rem;
+    }
+}
+
+@media (max-width:600px){
+    .hero-content h2{
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+    .hero-content p{
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+    }
+    .hero-img{
+        gap: 1rem;
+    }
+    .hero-img >div {
+        gap: 1rem;
+    }
+
+    .hero-img > div >img{
+        width: 17rem;
+        height: 19rem;
+    }
+
+    .tech-icon{
+        width: 3.3rem;
+        height: 3.3rem;
+    }
+    .tech-icon img{
+        width: 2.8rem;
+    }
+    .hero-content .welcome{
+        width: 70vw;
+        font-size: 1.1rem;
+        font-weight: 400;
+        padding-left: 2rem;
+        margin-left: 10vw;
+        margin-top: 2rem;
+        margin-bottom: -2rem;
+    }
+    .hero-content .changing-text{
+        font-size: 1.4rem;
+    }
+    .download-cv-btn{
+        height: 4rem; 
+        margin-top: 2rem;
+        margin-left: 26vw;
+        margin-bottom: 3rem;
+    }
+    .css{
+        margin-left: -0.4rem;
+    }
+
+}
