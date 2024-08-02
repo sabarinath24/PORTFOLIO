@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/PORTFOLIO/static/css/main.aba8052a.css",
+    "main.js": "/PORTFOLIO/static/js/main.909d43a7.js",
+    "static/js/453.ace21015.chunk.js": "/PORTFOLIO/static/js/453.ace21015.chunk.js",
+    "static/media/profile.jpg": "/PORTFOLIO/static/media/profile.b5e6d07cee431b9a3086.jpg",
+    "static/media/react.png": "/PORTFOLIO/static/media/react.9182eadd72d9969ef643.png",
+    "static/media/softskill.png": "/PORTFOLIO/static/media/softskill.403360c5e24c944d49e2.png",
+    "static/media/tools.png": "/PORTFOLIO/static/media/tools.bde1f7c22a2ce84658e4.png",
+    "static/media/python_5968350.png": "/PORTFOLIO/static/media/python_5968350.6a5cbc319ab3ddf8ef92.png",
+    "static/media/backend.png": "/PORTFOLIO/static/media/backend.3c5c5cd7ecab07773831.png",
+    "static/media/github.png": "/PORTFOLIO/static/media/github.d3263084234dc705b2ae.png",
+    "static/media/mysql_1199129.png": "/PORTFOLIO/static/media/mysql_1199129.beb30f136d156cc11f9c.png",
+    "static/media/css.png": "/PORTFOLIO/static/media/css.d1a3c1e59ca82dbdf815.png",
+    "static/media/mail.png": "/PORTFOLIO/static/media/mail.2c378c9ee25927123f7d.png",
+    "static/media/html_1051277.png": "/PORTFOLIO/static/media/html_1051277.6e930594286d8afe4c79.png",
+    "static/media/java-script_1199124.png": "/PORTFOLIO/static/media/java-script_1199124.78206ba65e01c7d57080.png",
+    "static/media/slick.svg": "/PORTFOLIO/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/PORTFOLIO/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/PORTFOLIO/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/PORTFOLIO/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/PORTFOLIO/index.html",
+    "main.aba8052a.css.map": "/PORTFOLIO/static/css/main.aba8052a.css.map",
+    "main.909d43a7.js.map": "/PORTFOLIO/static/js/main.909d43a7.js.map",
+    "453.ace21015.chunk.js.map": "/PORTFOLIO/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aba8052a.css",
+    "static/js/main.909d43a7.js"
+  ]
+}
