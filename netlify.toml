@@ -26,7 +26,7 @@
 [[plugins]]
   package = "@netlify/plugin-sitemap"
   [plugins.inputs]
-    baseUrl = "https://example.com"  # Use the correct base URL for your site
+    baseUrl = "https://sabariinathportfolio.netlify.app"  # Use the correct base URL for your site
     buildDir = "build"               # The directory where build files are output
     filePath = "sitemap.xml"         # The file where the sitemap should be written
     exclude = []                     # List of paths to exclude from the sitemap

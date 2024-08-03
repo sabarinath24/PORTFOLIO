@@ -1,5 +1,4 @@
 import React from 'react';
-import { scroller } from 'react-scroll';
 import './Navbar.css';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
