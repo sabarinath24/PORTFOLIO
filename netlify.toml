@@ -1,9 +1,30 @@
 [build]
-  base = "frontend"  # Set this to your project directory if it's not in the root
+  base = "frontend"
   command = "npm run build"
-  publish = "build"
+  publish = "frontend/build"
+  functions = "netlify-functions"
+
+[build.environment]
+  NODE_ENV = "production"
+  API_KEY = "nfp_xWr9fAHrqp9NB2KmtAsh8yKgYdsaFzPud998"
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Custom-Header = "value"
+
+[context.production.environment]
+  NODE_ENV = "production"
+
+[context.deploy-preview.environment]
+  NODE_ENV = "development"
+
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
+  [plugins.inputs]
+    site_url = "https://example.com"
