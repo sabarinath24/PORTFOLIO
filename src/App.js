@@ -1,34 +1,3 @@
-// import logo from './logo.svg';
-// import './App.css';
-// import Navbar from './components/Navbar/Navbar';
-// import Hero from './components/hero/Hero';
-// import Skills from './components/skills/Skills';
-// import WorkExperience from './components/Experience/Experience';
-// import Activities from './components/Activities/Activities';
-// import Projects from './components/Projects/Projects';
-// import ContactMe from './components/ContactMe/ContactMe';
-// import Footer from './components/Footer/Footer';
-
-
-// function App() {
-//   return (
-//     <>
-//       <Navbar/>
-//       <div className='container'>
-//         <Hero/>
-//         <Skills/>
-//         <WorkExperience/>
-//         <Activities/>
-//         <Projects/>
-//         <ContactMe/>
-//       </div>
-//       <Footer/>
-//     </>
-//   );
-// }
-
-// export default App;
-
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
