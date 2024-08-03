@@ -1,8 +1,7 @@
 [build]
-  base = "frontend"
+  base = "."  # Root directory where `package.json` is located
   command = "npm run build"
-  publish = "frontend/build"
-  functions = "netlify-functions"
+  publish = "build" 
 
 [build.environment]
   NODE_ENV = "production"
