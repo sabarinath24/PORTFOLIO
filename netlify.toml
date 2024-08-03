@@ -26,4 +26,12 @@
 [[plugins]]
   package = "@netlify/plugin-sitemap"
   [plugins.inputs]
-    site_url = "https://example.com"
+    baseUrl = "https://example.com"  # Use the correct base URL for your site
+    buildDir = "build"               # The directory where build files are output
+    filePath = "sitemap.xml"         # The file where the sitemap should be written
+    exclude = []                     # List of paths to exclude from the sitemap
+    prettyURLs = true                # Set to true if you want pretty URLs
+    changeFreq = "daily"             # Frequency of changes to pages
+    priority = 0.5                   # Priority of the pages
+    trailingSlash = false            # Add a trailing slash to URLs
+    urlPrefix = ""                   # URL prefix to add to all URLs in the sitemap
