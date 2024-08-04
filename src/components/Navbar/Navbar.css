@@ -48,6 +48,9 @@ html {
     position: relative;
     cursor: pointer;
 }
+.contact-btn{
+    text-decoration: none;
+}
 
 .menu-item::before {
     content: "";
