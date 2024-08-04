@@ -8,11 +8,21 @@ import Activities from './components/Activities/Activities';
 import Projects from './components/Projects/Projects';
 import ContactMe from './components/ContactMe/ContactMe';
 import Footer from './components/Footer/Footer';
+import AppRouter from './router/Approuter';
 
 function App() {
   return (
     <>
-      <Navbar/>
+      <AppRouter/>
+    </>
+  );
+}
+
+export default App;
+
+
+
+{/* <Navbar/>
       <div className='container'>
         <section id="hero">
           <Hero/>
@@ -33,12 +43,4 @@ function App() {
           <ContactMe/>
         </section>
       </div>
-      <Footer/>
-    </>
-  );
-}
-
-export default App;
-
-
-
+      <Footer/> */}
