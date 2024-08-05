@@ -45,6 +45,9 @@ font-weight: 500;
 }
 
 @media (max-width: 768px){
+    .experience-content{
+        width: 30vw;
+    }
     .experience-container h5{
         font-size: 1.3rem;
         margin-bottom: 2rem;
