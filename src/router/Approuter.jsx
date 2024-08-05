@@ -7,7 +7,7 @@ const AppRouter = () => {
         <BrowserRouter>
             <Routes>
                 <Route
-                    path="/PORTFOLIO"
+                    path="/"
                     element={<Landingpages/>}
                 />
             </Routes>
