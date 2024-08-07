@@ -1,90 +1,3 @@
-/* .profile{
-    height: 65vh;
-    width: 20vw;
-    border: 2px solid #a993fe;
-    padding: 10px;
-    border-radius: 18%;
-}
-.html{
-    height: 13vh;
-    width: 5.4vw;
-}
-.css{
-    height: 13vh;
-    width: 5.4vw;
-}
-.js{
-    height: 13vh;
-    width: 5.4vw;
-}
-.react{
-    height: 13vh;
-    width: 5.4vw;
-}
-.python{
-    height: 13vh;
-    width: 5.4vw;
-}
-.sql{
-    height: 13vh;
-    width: 5.4vw;
-    margin-right: -30px;
-}
-
-.hero-container{
-    display: flex;
-    align-items: center;
-    position: relative;
-}
-
-.hero-content{
-    flex: 1;
-}
-
-.hero-content h2{
-    font-size: 3.8rem;
-    font-weight: 600;
-    line-height: 5rem;
-    margin-bottom: 1rem;
-}
-
-.hero-content p{
-    width: 80%;
-    font-size: 1.3rem;
-    font-weight: 400;
-    line-height: 2rem;
-}
-
-.hero-img{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap:2rem;
-    margin-top: 5rem;
-}
-
-.hero-img>div{
-    display: flex;
-    align-items: flex-end;
-    gap: 2rem;
-}
-
-.hero-img > div > img{
-    width: 25rem;
-    transition: all 0.3s ease;
-} 
-.tech-icon{
-    width: 5rem;
-    height: 5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    border-radius: 0.65rem;
-    /* border: 1.5px solid #6852ba; 
-} */
-
 .hero-container{
     display: flex;
     margin-top: 2rem;
@@ -328,11 +241,11 @@ right: 0rem;
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 769px){
     .hero-container{
+        margin-top: 3rem;
         flex-direction: column;
     }
-
     .hero-img{
         margin: 2rem 0 2rem 0;
     }
@@ -429,4 +342,36 @@ right: 0rem;
         margin-left: -0.4rem;
     }
 
+}
+@media (max-width:426px){
+    .hero-container .welcome{
+        margin-left: 4.2rem;
+    }
+    .hero-content h2{
+        margin-left: 1.5rem;
+    }
+    .hero-container .download-cv-btn{
+        margin-left: 8.5rem;
+    }
+}
+
+@media (max-width:376px){
+    .hero-container .welcome{
+        margin-left: 5.2rem;
+    }
+
+    .hero-container .download-cv-btn{
+        margin-left: 9rem;
+    }
+}
+@media (max-width:321px){
+    .hero-container .welcome{
+        margin-left: 6.4rem;
+    }
+    .hero-content h2{
+        margin-left: 2rem;
+    }
+    .hero-container .download-cv-btn{
+        margin-left: 8.6rem;
+    }
 }

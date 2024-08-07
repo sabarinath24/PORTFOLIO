@@ -59,4 +59,8 @@
     .project-card ul li {
         font-size: 0.75rem;
     }
+    .project-card li::before {
+        font-size: 1.9rem;
+        margin-top: 0.9rem;
+    }
 }

@@ -10,3 +10,18 @@ body{
   background-color: #060417;
 }
 
+@media (max-width:426px){
+      #root{
+        width: 108vw;
+      }
+}
+@media (max-width:376px){
+      #root{
+        width: 120vw;
+      }
+}
+@media (max-width:321px){
+      #root{
+        width: 142vw;
+      }
+}

@@ -49,6 +49,12 @@
     font-size: 1.8rem; 
     line-height: 0.8;
 }
+
+@media (max-width: 1025px){
+    .work-experience-card{
+        height: 57vh;
+    }
+}
 @media (max-width: 768px) {
     .work-experience-card {
         margin: 0;
@@ -58,5 +64,9 @@
     }
     .work-experience-card ul li {
         font-size: 0.75rem;
+    }
+    .work-experience-card li::before {
+        font-size: 1.5rem;
+        margin-top: 0.8rem;
     }
 }
